@@ -1,6 +1,6 @@
 import { useState, useMemo, useEffect } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, ReferenceLine, Legend } from 'recharts';
-import { acf, acfSeries, mean, variance, pearsonCorrelation } from './utils/acf';
+import { acfSeries, mean, variance } from './utils/acf';
 import { pacfDetailed, pacfSeries } from './utils/pacf';
 
 const DEFAULT_LINEAR = [2, 4, 6, 8, 10];
